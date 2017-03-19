@@ -12,10 +12,11 @@ public class Lab5 extends lab4 implements ActionListener {
 		placeOrder1.addActionListener(this);
 	}
 	public void displayResult() {
-		int pos = cbb.getSelectedIndex();
-		String s = (String) cbb.getSelectedItem();
-		nameTF.setForeground(colore.RED);
-		nameTF.setText(",a,a,");
+//		int pos = cbb.getSelectedIndex();
+//		String s = (String) cbb.getSelectedItem();
+//		nameTF.setForeground(colore.RED);
+//		nameTF.setText(",a,a,");
+	}
 	
 	public void actionPerformed(ActionEvent arg0) {
 		
